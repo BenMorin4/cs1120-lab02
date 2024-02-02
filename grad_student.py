@@ -1,3 +1,7 @@
+# Project No.: 2
+# Author: Benjamin Morin, Jen Valdivieso
+# Description: Graduate student class
+
 from student import Student
 
 class GradStudent(Student):
