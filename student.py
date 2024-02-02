@@ -1,3 +1,7 @@
+# Project No.: 2
+# Author: Benjamin Morin, Jen Valdivieso
+# Description: Student super-class of undergrad and graduate
+
 class Student:
     def __init__(self, name, id):
         self.__name = name

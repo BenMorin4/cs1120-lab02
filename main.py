@@ -1,3 +1,7 @@
+# Project No.: 2
+# Author: Benjamin Morin, Jen Valdivieso
+# Description: Given main function
+
 from graduation_auditor import GraduationAuditor
 from undergrad_student import UndergradStudent
 from grad_student import GradStudent

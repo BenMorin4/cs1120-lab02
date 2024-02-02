@@ -1,3 +1,7 @@
+# Project No.: 2
+# Author: Benjamin Morin, Jen Valdivieso
+# Description: Graduation auditor class
+
 class GraduationAuditor():
 
     # this receives a list of Students, graduate or undergrad
