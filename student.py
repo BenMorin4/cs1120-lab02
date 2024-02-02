@@ -30,11 +30,12 @@ class Student:
         self.__credits = credits
 
     def take_course(self, name, credits):
-        self.__courses.append({name, credits})
+        self.__courses.append({name: name, credits: credits})
         self.__credits += credits
 
     def print_data(self):
-        for name, credits in self.__courses.items():
-            print(f'Course taken: {name} ({credits} credits)')
+        for course in self.__courses:
+            name, credits = course
+            print(f'Course taken: {name} ({credits} credits)\n')
 
         print(f'Credits Completed {self.__credits}')
